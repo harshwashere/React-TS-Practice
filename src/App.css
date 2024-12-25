@@ -1,0 +1,15 @@
+.night {
+  background-color: black;
+  color: white;
+}
+
+.day {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.profile {
+  padding: 10px;
+  border: 1px solid gray;
+  width: fit-content;
+}
