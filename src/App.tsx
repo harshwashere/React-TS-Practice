@@ -1,10 +1,16 @@
 import "./App.css";
-import Clock from "./describing/ComponentPure/01_Clock";
-import Profile from "./describing/ComponentPure/02_Profile";
-import StoryTray from "./describing/ComponentPure/03_StoryTray";
-import { Stories } from "./describing/ComponentPure/Stories";
-import LightSwitch from "./describing/Events/01_EventHandler";
-import WireEvents from "./describing/Events/02_WireEvents";
+import Clock from "./components/Describing/ComponentPure/01_Clock";
+import Profile from "./components/Describing/ComponentPure/02_Profile";
+import StoryTray from "./components/Describing/ComponentPure/03_StoryTray";
+import { Stories } from "./components/Describing/ComponentPure/Stories";
+import Gallery from "./components/Interactivity/Component memory/01_Gallery";
+import Form from "./components/Interactivity/Component memory/02_StuckInput";
+import FeedbackForm from "./components/Interactivity/Component memory/03_Crash";
+import FeedbackForm2 from "./components/Interactivity/Component memory/04_UselessState";
+import LightSwitch from "./components/Interactivity/Events/01_EventHandler";
+import WireEvents from "./components/Interactivity/Events/02_WireEvents";
+import RequestTracker from "./components/Interactivity/Queing/01_Counter";
+import TrafficLight from "./components/Interactivity/Snapshot/TrafficLight";
 
 function App() {
   return (
@@ -33,6 +39,24 @@ function App() {
         <br />
         <br />
         <WireEvents />
+        <br />
+        <br />
+        <Gallery />
+        <br />
+        <br />
+        <Form />
+        <br />
+        <br />
+        <FeedbackForm />
+        <br />
+        <br />
+        <FeedbackForm2 />
+        <br />
+        <br />
+        <TrafficLight />
+        <br />
+        <br />
+        <RequestTracker />
       </div>
     </>
   );
